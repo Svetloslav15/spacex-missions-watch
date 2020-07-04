@@ -35,20 +35,22 @@ const PastLaunches = () => {
             <div className="front-container">
                 <h2 className="pb-4 py-2 text-shadow">Past Launches</h2>
                 {
-                    launches ? <table className="table table-hover table-fixed">
-                        <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Image</th>
-                            <th>Name</th>
-                            <th>Date</th>
-                            <th>Link</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        {displayLaunches()}
-                        </tbody>
-                    </table> : <h3 className="text-center my-4">Loading...</h3>
+                    launches ? <div class="table-responsive">
+                        <table className="table table-hover table-fixed">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>Date</th>
+                                <th>Link</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {displayLaunches()}
+                            </tbody>
+                        </table>
+                    </div> : <h3 className="text-center my-4">Loading...</h3>
                 }
             </div>
         </div>
