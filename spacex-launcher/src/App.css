@@ -49,7 +49,10 @@ body {
 .box-shadow-none {
     box-shadow: none;
 }
+.link-c, .link:hover {
+    color: #480A8C !important;
 
+}
 .front-container {
     position: absolute;
     top: 0;
