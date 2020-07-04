@@ -18,7 +18,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 50vh;
   background-image: -ms-linear-gradient(bottom, #480A8C -50%, #BB54AB 100%);
   background-image: -moz-linear-gradient(bottom, #480A8C -50%, #BB54AB 100%);
   background-image: -o-linear-gradient(bottom, #480A8C -50%, #BB54AB 100%);
@@ -33,4 +33,16 @@ body {
 }
 .box-shadow-none {
   box-shadow: none;
+}
+
+.front-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1em;
+}
+
+.h-50vh {
+  height: 50vh;
+
 }

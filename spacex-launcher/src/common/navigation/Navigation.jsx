@@ -8,7 +8,7 @@ const Navigation = () => {
             <LogoImage/>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
                     aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"/>
+                <i className="fas fa-bars text-white"/>
             </button>
 
             <div className="collapse navbar-collapse mr-5" id="basicExampleNav">
@@ -17,7 +17,7 @@ const Navigation = () => {
                     <NavItem link='/home'>Home</NavItem>
                     <NavItem link='/upcoming'>Upcoming Launches</NavItem>
                     <NavItem link='/past'>Past Launches</NavItem>
-                    <NavItem link='/about'>Abouts</NavItem>
+                    <NavItem link='/about'>About</NavItem>
                 </ul>
             </div>
         </nav>
