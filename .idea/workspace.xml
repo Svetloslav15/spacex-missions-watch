@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a06cf468-f784-46dc-9190-c0450e368860" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/spacex-launcher/src/pages/launch-details/LaunchDetails.jsx" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/spacex-launcher/public/favicon.ico" afterPath="$PROJECT_DIR$/spacex-launcher/public/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/spacex-launcher/public/index.html" afterPath="$PROJECT_DIR$/spacex-launcher/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/spacex-launcher/src/App.js" afterPath="$PROJECT_DIR$/spacex-launcher/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/spacex-launcher/src/common/navigation/LogoImage.jsx" afterPath="$PROJECT_DIR$/spacex-launcher/src/common/navigation/LogoImage.jsx" />
+      <change beforePath="$PROJECT_DIR$/spacex-launcher/src/App.css" afterPath="$PROJECT_DIR$/spacex-launcher/src/App.css" />
       <change beforePath="$PROJECT_DIR$/spacex-launcher/src/common/navigation/NavItem.jsx" afterPath="$PROJECT_DIR$/spacex-launcher/src/common/navigation/NavItem.jsx" />
-      <change beforePath="$PROJECT_DIR$/spacex-launcher/src/common/navigation/Navigation.jsx" afterPath="$PROJECT_DIR$/spacex-launcher/src/common/navigation/Navigation.jsx" />
-      <change beforePath="$PROJECT_DIR$/spacex-launcher/src/index.js" afterPath="$PROJECT_DIR$/spacex-launcher/src/index.js" />
-      <change beforePath="$PROJECT_DIR$/spacex-launcher/src/logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/spacex-launcher/src/pages/home/HomePage.jsx" afterPath="$PROJECT_DIR$/spacex-launcher/src/pages/home/HomePage.jsx" />
+      <change beforePath="$PROJECT_DIR$/spacex-launcher/src/index.css" afterPath="$PROJECT_DIR$/spacex-launcher/src/index.css" />
+      <change beforePath="$PROJECT_DIR$/spacex-launcher/src/pages/launch-details/LaunchDetails.jsx" afterPath="$PROJECT_DIR$/spacex-launcher/src/pages/launch-details/LaunchDetails.jsx" />
+      <change beforePath="$PROJECT_DIR$/spacex-launcher/src/services/LaunchService.js" afterPath="$PROJECT_DIR$/spacex-launcher/src/services/LaunchService.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +23,8 @@
       <file leaf-file-name="HomePage.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacex-launcher/src/pages/home/HomePage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="93" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="93" />
+            <state relative-caret-position="663">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -38,24 +32,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacex-launcher/src/index.css">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spacex-launcher/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="220">
+              <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacex-launcher/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -73,19 +55,11 @@
       <file leaf-file-name="LaunchDetails.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacex-launcher/src/pages/launch-details/LaunchDetails.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimerSegment.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacex-launcher/src/pages/home/timer/TimerSegment.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="48" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="203">
+              <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogoImage.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LogoImage.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spacex-launcher/src/common/navigation/LogoImage.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -114,24 +88,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavItem.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NavItem.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spacex-launcher/src/common/navigation/NavItem.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="102">
+              <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spacex-launcher/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -156,22 +120,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spacex-launcher/src/index.css" />
         <option value="$PROJECT_DIR$/spacex-launcher/src/helpers/launchHelper.js" />
         <option value="$PROJECT_DIR$/spacex-launcher/src/helpers/LaunchHelper.js" />
-        <option value="$PROJECT_DIR$/spacex-launcher/src/services/LaunchService.js" />
         <option value="$PROJECT_DIR$/spacex-launcher/src/pages/home/timer/TimerSegment.jsx" />
         <option value="$PROJECT_DIR$/spacex-launcher/src/pages/home/timer/Timer.jsx" />
-        <option value="$PROJECT_DIR$/spacex-launcher/src/App.css" />
         <option value="$PROJECT_DIR$/spacex-launcher/src/logo.svg" />
         <option value="$PROJECT_DIR$/spacex-launcher/public/index.html" />
         <option value="$PROJECT_DIR$/spacex-launcher/src/pages/home/HomePage.jsx" />
         <option value="$PROJECT_DIR$/spacex-launcher/src/index.js" />
-        <option value="$PROJECT_DIR$/spacex-launcher/src/pages/launch-details/LaunchDetails.jsx" />
         <option value="$PROJECT_DIR$/spacex-launcher/src/App.js" />
         <option value="$PROJECT_DIR$/spacex-launcher/src/common/navigation/Navigation.jsx" />
-        <option value="$PROJECT_DIR$/spacex-launcher/src/common/navigation/NavItem.jsx" />
         <option value="$PROJECT_DIR$/spacex-launcher/src/common/navigation/LogoImage.jsx" />
+        <option value="$PROJECT_DIR$/spacex-launcher/src/index.css" />
+        <option value="$PROJECT_DIR$/spacex-launcher/src/services/LaunchService.js" />
+        <option value="$PROJECT_DIR$/spacex-launcher/src/App.css" />
+        <option value="$PROJECT_DIR$/spacex-launcher/src/pages/launch-details/LaunchDetails.jsx" />
+        <option value="$PROJECT_DIR$/spacex-launcher/src/common/navigation/NavItem.jsx" />
       </list>
     </option>
   </component>
@@ -277,6 +241,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spacex-missions-watch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spacex-missions-watch" type="462c0819:PsiDirectoryNode" />
+              <item name="spacex-launcher" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -317,12 +288,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593851228141</updated>
-      <workItem from="1593851232232" duration="13068000" />
+      <workItem from="1593851232232" duration="14824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13068000" />
+    <option name="totallyTimeSpent" value="14824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -373,14 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/services/LaunchService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spacex-launcher/src/pages/home/timer/Timer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -388,14 +351,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="66" column="21" lean-forward="false" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -412,10 +367,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/index.css">
+    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/pages/home/timer/TimerSegment.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="6" column="48" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/common/navigation/Navigation.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/common/navigation/LogoImage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -430,64 +413,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/pages/home/timer/TimerSegment.jsx">
+    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/services/LaunchService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spacex-launcher/src/pages/launch-details/LaunchDetails.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/pages/home/HomePage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="93" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="93" />
+        <state relative-caret-position="203">
+          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/common/navigation/Navigation.jsx">
+    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/pages/home/HomePage.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spacex-launcher/src/common/navigation/NavItem.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spacex-launcher/src/common/navigation/LogoImage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

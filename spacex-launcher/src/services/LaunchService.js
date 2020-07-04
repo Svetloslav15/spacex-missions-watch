@@ -2,20 +2,22 @@ const BASE_URL = 'https://api.spacexdata.com/v4/launches/';
 const BASE_URL_LAUNCHPADS = 'https://api.spacexdata.com/v4/launchpads/';
 const BASE_URL_ROCKETS = 'https://api.spacexdata.com/v4/rockets/';
 
+const base = (url) => {
+    return fetch(url)
+        .then(data => data.json())
+        .then(data => data);
+};
 export default {
     getLaunchPad: (id) => {
-        return fetch(`${BASE_URL_LAUNCHPADS}${id}`)
-            .then(data => data.json())
-            .then(data => data);
+        return base(`${BASE_URL_LAUNCHPADS}${id}`);
     },
     getRocketById: (id) => {
-        return fetch(`${BASE_URL_ROCKETS}${id}`)
-            .then(data => data.json())
-            .then(data => data);
+        return base(`${BASE_URL_ROCKETS}${id}`);
     },
     getNextLaunch: () => {
-        return fetch(`${BASE_URL}next`)
-            .then(data => data.json())
-            .then(data => data);
+        return base(`${BASE_URL}next`);
+    },
+    getLaunchById: (id) => {
+        return base(`${BASE_URL}${id}`);
     }
 }

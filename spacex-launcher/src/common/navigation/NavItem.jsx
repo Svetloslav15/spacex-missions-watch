@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const NavItem = ({link, children}) => {
     return (
         <li className="nav-item mx-3">
-            <Link className="nav-link text-white"
+            <Link className="nav-link text-white text-shadow"
                to={link}>
                 {children}
             </Link>

@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-image: url("./assets/images/bg.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     height: 100vh;
 }
@@ -63,15 +63,36 @@ body {
     .column-display {
         width: 70%;
     }
+
     .patch-image {
         display: none;
     }
+
+    .h-50vh {
+        height: 100vh;
+    }
+}
+
+.w-80 {
+    width: 80%;
 }
 
 .h-50vh {
     height: 50vh;
 }
 
+.h-200vh {
+    height: 100vh;
+}
+.text-shadow {
+    text-shadow: 1px 2px 3px #666;
+}
+.paragraph-l {
+    background-color: #8F29B4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 1em;
+}
 .font-size-22 {
     font-size: 18px;
 }
