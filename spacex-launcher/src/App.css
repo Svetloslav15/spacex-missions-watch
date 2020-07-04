@@ -46,7 +46,9 @@ body {
 }
 
 .patch-image {
-    float: right;
+    position: absolute;
+    top: 1em;
+    right: 1em;
     width: 100px;
 }
 
@@ -60,6 +62,9 @@ body {
 @media only screen and (max-width: 600px) {
     .column-display {
         width: 70%;
+    }
+    .patch-image {
+        display: none;
     }
 }
 

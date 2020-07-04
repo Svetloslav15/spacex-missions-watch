@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import LaunchService from '../../services/LaunchService';
 import LaunchHelper from '../../helpers/LaunchHelper';
 
+import Timer from './timer/Timer';
+
 const HomePage = () => {
     const [nextLaunch, setNextLaunch] = useState(null);
     const [timeToNextLaunch, setTimeToNextLaunch] = useState({});
@@ -32,11 +34,11 @@ const HomePage = () => {
         }
     }, [nextLaunch]);
     return (
-        <div className="bg-none container h-50vh jumbotron mt-5 position-relative">
+        <div className="bg-none container col-md-8 h-50vh jumbotron mt-5 position-relative">
             <div className="home-container"/>
             {nextLaunch ? <div className="front-container">
-                <h2>{nextLaunch.name}</h2>
                 <img className="patch-image" src={nextLaunch.links.patch.small} alt="Patch"/>
+                <h2>{nextLaunch.name}</h2>
                 <p className="py-1">
                     <span className="pr-4"><i className="fas fa-rocket"/> Rocket: {rocket && rocket.name}</span>
                     <span className="pl-4">Flight # {nextLaunch.flight_number}</span>
@@ -45,24 +47,8 @@ const HomePage = () => {
                     <i className="fas fa-map-marker-alt mr-2"/>
                     {launchPad && launchPad.full_name}
                 </p>
-                <h3 className="mx-auto row justify-content-center">
-                    <div className="column-display">
-                        <span className="font-size-36">{timeToNextLaunch.days}</span>
-                        <span className="font-size-22">DAYS</span>
-                    </div> :
-                    <div className="column-display">
-                        <span className="font-size-36">{timeToNextLaunch.hours}</span>
-                        <span className="font-size-22">HOURS</span>
-                    </div> :
-                    <div className="column-display">
-                        <span className="font-size-36">{timeToNextLaunch.minutes}</span>
-                        <span className="font-size-22">MINUTES</span>
-                    </div> :
-                    <div className="column-display">
-                        <span className="font-size-36">{timeToNextLaunch.seconds}</span>
-                        <span className="font-size-22">SECONDS</span>
-                    </div>
-                </h3>
+                <Timer timeToNextLaunch={timeToNextLaunch}/>
+                <button className="btn purple-gradient waves-effect mt-3">WATCH NOW</button>
             </div> : ''}
         </div>
     );
