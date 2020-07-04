@@ -35,7 +35,7 @@ const PastLaunches = () => {
             <div className="front-container">
                 <h2 className="pb-4 py-2 text-shadow">Past Launches</h2>
                 {
-                    launches ? <div class="table-responsive">
+                    launches ? <div className="table-responsive">
                         <table className="table table-hover table-fixed">
                             <thead>
                             <tr>

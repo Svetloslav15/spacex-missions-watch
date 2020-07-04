@@ -36,7 +36,7 @@ const UpcomingLaunches = () => {
                 <h2 className="pb-4 py-2 text-shadow">Upcoming Launches</h2>
                 {
                     launches ?
-                        <div class="table-responsive">
+                        <div className="table-responsive">
                             <table className="table table-hover table-fixed">
                                 <thead>
                                 <tr>
