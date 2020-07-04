@@ -8,22 +8,10 @@ const base = (url) => {
         .then(data => data);
 };
 export default {
-    getLaunchPad: (id) => {
-        return base(`${BASE_URL_LAUNCHPADS}${id}`);
-    },
-    getRocketById: (id) => {
-        return base(`${BASE_URL_ROCKETS}${id}`);
-    },
-    getNextLaunch: () => {
-        return base(`${BASE_URL}next`);
-    },
-    getLaunchById: (id) => {
-        return base(`${BASE_URL}${id}`);
-    },
-    getUpcomingLaunches: () => {
-        return base(`${BASE_URL}upcoming`);
-    },
-    getPastLaunches: () => {
-        return base(`${BASE_URL}past`);
-    }
+    getLaunchPad: (id) => base(`${BASE_URL_LAUNCHPADS}${id}`),
+    getRocketById: (id) => base(`${BASE_URL_ROCKETS}${id}`),
+    getNextLaunch: () => base(`${BASE_URL}next`),
+    getLaunchById: (id) => base(`${BASE_URL}${id}`),
+    getUpcomingLaunches: () => base(`${BASE_URL}upcoming`),
+    getPastLaunches: () => base(`${BASE_URL}past`)
 }

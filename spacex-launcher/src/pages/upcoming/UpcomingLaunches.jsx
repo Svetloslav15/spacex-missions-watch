@@ -12,7 +12,7 @@ const UpcomingLaunches = () => {
     }, []);
 
     const displayLaunches = () => (
-        launches.map((launch, index) => <tr>
+        launches.map((launch, index) => <tr key={index}>
             <th scope="row">{index + 1}</th>
             <td>{launch.links.patch.small ?
                 <img src={launch.links.patch.small} className="patch-img" alt={launch.name}/> : ''}</td>
