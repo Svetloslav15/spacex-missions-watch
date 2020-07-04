@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom';
 import LaunchService from '../../services/LaunchService';
 import LaunchHelper from '../../helpers/LaunchHelper';
 
-const UpcomingLaunches = () => {
+const PastLaunches = () => {
     const [launches, setLaunches] = useState([]);
 
     useEffect(() => {
-        LaunchService.getUpcomingLaunches()
-            .then(data => setLaunches(data));
+        LaunchService.getPastLaunches()
+            .then(data => setLaunches(data.sort(x => -x.date_unix)));
     }, []);
 
     const displayLaunches = () => (
@@ -33,7 +33,7 @@ const UpcomingLaunches = () => {
         <div className="bg-none container h-200vh jumbotron mt-5 position-relative">
             <div className="home-container-1"/>
             <div className="front-container">
-                <h2 className="pb-4 py-2 text-shadow">Upcoming Launches</h2>
+                <h2 className="pb-4 py-2 text-shadow">Past Launches</h2>
                 {
                     launches ? <table className="table table-hover table-fixed">
                         <thead>
@@ -55,4 +55,4 @@ const UpcomingLaunches = () => {
     );
 };
 
-export default UpcomingLaunches;
+export default PastLaunches;
