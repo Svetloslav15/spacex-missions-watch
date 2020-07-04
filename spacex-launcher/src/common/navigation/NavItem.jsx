@@ -1,12 +1,13 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const NavItem = ({link, children}) => {
     return (
         <li className="nav-item mx-3">
-            <a className="nav-link text-white"
-               href={link}>
+            <Link className="nav-link text-white"
+               to={link}>
                 {children}
-            </a>
+            </Link>
         </li>
     );
 };

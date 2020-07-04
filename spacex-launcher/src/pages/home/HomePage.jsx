@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import LaunchService from '../../services/LaunchService';
 import LaunchHelper from '../../helpers/LaunchHelper';
-
+import {Link} from 'react-router-dom';
 import Timer from './timer/Timer';
 
 const HomePage = () => {
@@ -48,7 +48,9 @@ const HomePage = () => {
                     {launchPad && launchPad.full_name}
                 </p>
                 <Timer timeToNextLaunch={timeToNextLaunch}/>
-                <button className="btn purple-gradient waves-effect mt-3">WATCH NOW</button>
+                <Link to={`/launches/${nextLaunch.id}`}>
+                    <button className="btn purple-gradient waves-effect mt-3">WATCH NOW</button>
+                </Link>
             </div> : ''}
         </div>
     );

@@ -14,10 +14,10 @@ const Navigation = () => {
             <div className="collapse navbar-collapse mr-5" id="basicExampleNav">
 
                 <ul className="navbar-nav ml-auto">
-                    <NavItem link='/home'>Home</NavItem>
-                    <NavItem link='/upcoming'>Upcoming Launches</NavItem>
-                    <NavItem link='/past'>Past Launches</NavItem>
-                    <NavItem link='/about'>About</NavItem>
+                    <NavItem link=''>Home</NavItem>
+                    <NavItem link='upcoming'>Upcoming Launches</NavItem>
+                    <NavItem link='past'>Past Launches</NavItem>
+                    <NavItem link='about'>About</NavItem>
                 </ul>
             </div>
         </nav>
