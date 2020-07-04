@@ -51,7 +51,9 @@ body {
     right: 1em;
     width: 100px;
 }
-
+.patch-img {
+    width: 100px;
+}
 .column-display {
     flex-direction: column;
     display: flex;
