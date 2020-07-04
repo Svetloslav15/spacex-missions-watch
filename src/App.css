@@ -27,6 +27,7 @@ body {
     background-image: linear-gradient(to top, #480A8C -50%, #BB54AB 100%);
     opacity: 0.5;
 }
+
 .home-container-1 {
     position: absolute;
     top: 0;
@@ -49,10 +50,12 @@ body {
 .box-shadow-none {
     box-shadow: none;
 }
+
 .link-c, .link:hover {
     color: #480A8C !important;
 
 }
+
 .front-container {
     position: absolute;
     top: 0;
@@ -68,9 +71,11 @@ body {
     right: 1em;
     width: 100px;
 }
+
 .patch-img {
     width: 100px;
 }
+
 .column-display {
     flex-direction: column;
     display: flex;
@@ -103,15 +108,18 @@ body {
 .h-200vh {
     height: 100vh;
 }
+
 .text-shadow {
     text-shadow: 1px 2px 3px #666;
 }
+
 .paragraph-l {
     background-color: #8F29B4;
     border-radius: 10px;
     padding: 20px;
     margin-top: 1em;
 }
+
 .font-size-22 {
     font-size: 18px;
 }
