@@ -2,5 +2,7 @@ RewriteEngine On
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
 RewriteRule ^ - [L]
-RewriteRule ^ ./
-RewriteRule ^(.*)$ https://spacex.novoselski.net/$1 [R=301,L]
+RewriteRule ^ ./.*
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://spacex.novoselski.net/$1 [R,L]

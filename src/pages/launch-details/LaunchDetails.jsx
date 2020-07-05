@@ -24,7 +24,9 @@ const LaunchDetails = (props) => {
             });
     }, []);
 
-    const displayShips = () => ships.map(ship => <Ship ship={ship}/>);
+    const displayShips = () => (
+        ships.map(ship => <Ship ship={ship}/>)
+    );
 
     return (
         <div className="bg-none container h-200vh jumbotron mt-5 position-relative">
