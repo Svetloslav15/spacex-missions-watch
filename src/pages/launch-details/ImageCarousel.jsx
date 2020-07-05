@@ -4,9 +4,10 @@ import {Carousel} from 'react-responsive-carousel';
 
 const ImageCarousel = ({images}) => {
     const displayImages = () => (
-        images.map(image => <div>
-            <img src={image}/>
-        </div>)
+        images.map((image, index) =>
+            <div key={index}>
+                <img src={image} alt={index}/>
+            </div>)
     );
     return (
         <Carousel>

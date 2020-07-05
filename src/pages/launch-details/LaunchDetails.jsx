@@ -5,15 +5,41 @@ import ImageCarousel from "./ImageCarousel";
 const LaunchDetails = (props) => {
     const [launch, setLaunch] = useState(null);
     const [rocket, setRocket] = useState(null);
+    const [ships, setShips] = useState([]);
 
     useEffect(() => {
         LaunchService.getLaunchById(props.match.params.id)
             .then(data => {
                 setLaunch(data);
+                data.ships.forEach(x => LaunchService.getShipById(x)
+                    .then(ship => {
+                        let currShips = ships;
+                        currShips.push(ship);
+                        setShips(currShips);
+                    })
+                );
                 LaunchService.getRocketById(data.rocket)
                     .then(rocketData => setRocket(rocketData));
             });
     }, []);
+
+    const displayShips = () => (
+        ships.map(ship =>
+            <div className='row my-3'>
+                <div className='col-md-6'>
+                    <h4>{ship.name}</h4>
+                    <img className='w-100' src={ship.image} alt={ship.name}/>
+                </div>
+                <div className='col-md-5 offset-md-1 text-left mt-4'>
+                    <p>Home Port: {ship.home_port}</p>
+                    <p>Type: {rocket.type}</p>
+                    <p>Mass: {ship.mass_kg} kg</p>
+                    <p>Year Built: {ship.year_built}</p>
+                    <p>Is Active: {ship.active.toString().toUpperCase()}</p>
+                </div>
+            </div>
+        )
+    );
 
     return (
         <div className="bg-none container h-200vh jumbotron mt-5 position-relative">
@@ -60,6 +86,8 @@ const LaunchDetails = (props) => {
                                         <p>{rocket.description}</p>
                                     </div>
                                 </div>
+                                <h3 className='mb-4'>Ships</h3>
+                                {ships && displayShips()}
                             </div>
                             :
                             <h4>No infomation about the rocket</h4>
