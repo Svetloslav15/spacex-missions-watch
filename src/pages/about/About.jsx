@@ -11,7 +11,7 @@ const About = () => {
                 </h4>
                 <h4 className="mt-4 text-shadow">
                     The site is still in development, will be updated frequently..</h4>
-                <h4 className="mt-4 text-shadow">I will be thankful if you give me a star at github and share it will your friends!</h4>
+                <h4 className="mt-4 text-shadow">I will be thankful if you share it will your friends!</h4>
                 <h4 className="mt-4 text-shadow">
                     Find me on <a className="link-c font-weight-bold" href='https://github.com/Svetloslav15'>Github</a> or
                     <a className="link-c font-weight-bold" href='https://novoselski.net/'> My Website</a></h4>

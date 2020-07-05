@@ -14,4 +14,4 @@ export default {
     getLaunchById: (id) => base(`${BASE_URL}${id}`),
     getUpcomingLaunches: () => base(`${BASE_URL}upcoming`),
     getPastLaunches: () => base(`${BASE_URL}past`)
-}
+};
